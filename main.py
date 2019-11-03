@@ -6,8 +6,6 @@ from opencv.opencv import make_train_img, make_train_path
 from config import get_keyword
 
 
-# What images you try to scrape
-# WARNING: if IMG_KEYWORD is Japanese language, it'd cause error
 IMG_KEYWORD = get_keyword('Img Keyword')
 
 
