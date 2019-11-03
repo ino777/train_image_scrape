@@ -1,0 +1,20 @@
+# What images you try to scrape
+# WARNING: if IMG_KEYWORD is Japanese language, it'd cause error
+Img Keyword: Billgates
+
+
+
+# Cascade File must exist in the same directory
+# For human
+Cascade File: haarcascade_frontalface_alt.xml
+
+#For anime characters
+# Cascade File: lbpcascade_animeface.xml
+
+
+
+# Your Custom Vision Accounts section
+# Accounts:
+#   Training Key: _
+#   Prediction Key: _
+#   Prediction Resource id: _

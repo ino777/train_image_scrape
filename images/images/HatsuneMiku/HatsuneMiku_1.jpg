@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="クリプトン・フューチャー・メディア（株）公式サイト">
+<meta name="keywords" content="クリプトン, CRYPTON FUTURE MEDIA, サンプルパック, ソフトウェア音源, サウンド素材, ソフト音源, 効果音素材, BGM素材, モバイルコンテンツ, キャラクター">
+<meta name="format-detection" content="telephone=no">
+<title>クリプトン・フューチャー・メディア（株）｜Sound the future.</title>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.crypton.co.jp/cfm/wp-includes/css/dist/block-library/style.min.css?ver=5.0.7' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
+<link rel='https://api.w.org/' href='https://www.crypton.co.jp/cfm/wp-json/' />
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/css/normalize.css" rel="stylesheet">
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/css/standard.css" rel="stylesheet">
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/css/responsive.css?180411" rel="stylesheet">
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/css/wordpress.css" rel="stylesheet">
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/mmenu.css" rel="stylesheet">
+<link href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="screen" />
+<link href='//fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/fontawesome/css/font-awesome.css" />
+<link rel="shortcut icon" href="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/favicon.ico">
+
+<!--Material Icons-->
+<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/page_link_scroll/jquery.easingscroll.js"></script>
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/css_browser_selector.js"></script>
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/jquery.champagne.min.js"></script>
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/home.js"></script>
+
+<!--[if lte IE 8]>
+    <script type="text/javascript">
+		$(function(){
+			$(".line:nth-child(odd)").addClass('odd');
+			$(".line:nth-child(even)").addClass('even');
+			$(".contactbox:nth-child(odd)").addClass('contactbox_odd');
+		});
+	</script>
+	<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/ie.separate.js"></script>
+	
+	<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/jquery.backgroundSize.js"></script>
+	
+<![endif]-->
+
+<script type="text/javascript">
+$(function(){
+	$('.backtotop').hide();
+	$('.backtotop').click(function() {
+		$('body,html').animate({
+			scrollTop:0
+		})
+		return false
+	});
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 200) {
+			$('.backtotop').fadeIn();
+		} else {
+			$('.backtotop').fadeOut();
+		}
+	});
+	
+	$("a[href*='#']:not(.gmenu_icon)").easingScroll({
+		easing: "easeOutQuad",
+		duration: 400
+	});
+	
+});
+</script>
+
+<script type="text/javascript">
+	function menu_slide(){
+		var ww = $(window).width();
+		if (ww <= 768){
+			$(".gmenu").addClass('gmenu_mobile');
+			$(".fancybox").addClass('fancybox_mobile');
+			$(".fancybox").removeClass('fancybox');
+		}
+		else{
+			$(".gmenu").removeClass('gmenu_mobile mm-menu mm-opened');
+			$(".gmenu > div").removeClass('mm-inner');
+		}
+	}
+	$(function() {
+		menu_slide();
+		$('.gmenu_mobile').mmenu();
+		$(window).resize(function(){
+			menu_slide();
+			$('.gmenu_mobile').mmenu();
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+		$("a#fancybox, a.fancybox").fancybox({
+			'overlayColor' : '#111111',
+			'speedOut' : 80,
+			'overlayOpacity' : 0.8,
+			'margin' : 100,
+			'titlePosition': 'inside'
+		});
+	});
+	
+	$(document).ready(function() {
+		$("a.fancybox_mobile").fancybox({
+			'overlayColor' : '#111111',
+			'speedOut' : 80,
+			'overlayOpacity' : 0.8,
+			'autoScale' : true,
+			'showCloseButton' : false,
+			'padding' : 0,
+			'margin' : 20
+		});
+	});
+	
+</script>
+
+<!-- Google Analytics Tracking Code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-45206138-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Google Analytics Social Button Tracking -->
+<script type="text/javascript" src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/js/ga_social_tracking.js"></script>
+
+<!-- Load Twitter JS-API asynchronously -->
+<script type="text/javascript" charset="utf-8">
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+  // Wait for the asynchronous resources to load
+  twttr.ready(function(twttr) {
+      _ga.trackTwitter(); //Google Analytics tracking
+  });
+</script>
+
+<meta name="google-site-verification" content="OinZfkUI5gZtvMIIZzed-AeWAoOkSvE5TR6XOH3geDg" />
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" class="home blog">
+
+<!--like button-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=646910018705815";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<ul class="gmenu gmenu_bk" id="gmenu">
+		<li><a href="/">TOP</a></li>
+		<li><a class="" href="/cfm/project">事業内容</a></li>
+		<li class="lv2"><a href="/cfm/project_category/dtm">サウンド素材・ソフト音源</a></li>
+		<li class="lv2"><a href="/cfm/project_category/fxbgm">効果音・BGM</a></li>
+		<li class="lv2"><a href="/cfm/project_category/mobile">モバイルコンテンツ</a></li>
+		<li class="lv2"><a href="/cfm/project_category/character">キャラクター</a></li>
+		<li class="lv2"><a href="/cfm/project_category/local">地域プロジェクト</a></li>
+		<li class="lv2"><a href="/cfm/project_category/other">その他</a></li>
+		<li class="lv2"><a href="/cfm/project_tag">タグ別</a></li>
+		<li><a class="" href="/cfm/aboutus">会社概要</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_info">会社情報</a></li>
+		<li class="lv2"><a href="/cfm/history">沿革</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_access">アクセス</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_contact">お問い合わせについて</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_sns">ソーシャルメディアについて</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_member">加盟団体・連携事業</a></li>
+		<li class="lv2"><a href="/cfm/aboutus_csr">環境保護への取り組み</a></li>
+		<li><a class="" href="/cfm/news">ニュースリリース</a></li>
+		<li><a class="" href="/cfm/recruit">採用情報</a></li>
+		<li class="lv2"><a href="/cfm/recruit">クリプトンってどんな会社？</a></li>
+        <li class="lv2"><a href="https://job.mynavi.jp/21/pc/search/corp223940/outline.html" target="_blank">新卒採用はこちら</a></li>
+        <li class="lv2"><a href="https://hrmos.co/pages/crypton/jobs" target="_blank">中途採用はこちら</a></li>
+		<li><a class="" href="/cfm/inquiry">お問い合わせ</a></li>
+	</ul>
+
+	<div class="wrapper">
+
+		
+		<div class="maincont">
+			<a href="/" class="siteid site_id_bk" title="クリプトン・フューチャー・メディア（株）｜Sound the future."></a>
+			<a class="gmenu_icon" href="#gmenu"><i class="icon-reorder"></i></a>
+			<!--<a href="/cfm/20th" class="topimg topimg0"><img src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/images/twenty/logo-cfm20th.svg"></a>-->
+			<div class="topimg topimg0">
+                <div class="topimg_inner topimg_inner0"></div>
+            </div>
+			<!--<div class="topimg topimg_fixed"></div>-->
+			<a href="/cfm/project_category/dtm" class="topimg topimg1">
+				<div class="topimg_inner topimg_inner1">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">パソコンで</span><span class="br">音楽をつくる。</span></div>
+					<p class="topimg_desc">音楽制作に欠かせないサンプルパックやソフトウェア音源を販売。ジャンルや楽器ごとにまとめられた多彩なサウンド素材から、「初音ミク」などの自社開発ソフトウェアまで、世界最大級の品揃えを実現。</p>
+				</div>
+			</a>
+			<a href="/cfm/project_category/fxbgm" class="topimg topimg2">
+				<div class="topimg_inner topimg_inner2">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">映像を</span><span class="br">音で彩る。</span></div>
+					<p class="topimg_desc">映像表現が一層と際立つ効果音やBGMを販売。大自然の風景から近未来の世界まで様々なシーンを網羅する、200,000種類以上の効果音と10,000曲以上のBGMをダウンロード配信。その品揃えは世界最大規模。</p>
+				</div>
+			</a>
+			<a href="/cfm/project_category/mobile" class="topimg topimg3">
+				<div class="topimg_inner topimg_inner3">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">モバイルを</span><span class="br">もっとたのしく。</span></div>
+					<p class="topimg_desc">「初音ミク」などのキャラクターを題材としたゲームや、50,000音以上の着信音・効果音がダウンロードできるアプリなど、モバイルを楽しくするコンテンツを企画・開発。</p>
+				</div>
+			</a>
+			<a href="/cfm/project_category/character" class="topimg topimg4">
+				<div class="topimg_inner topimg_inner4">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">広がる創作</span><span class="br">の連鎖。</span></div>
+					<p class="topimg_desc">ソフトウェアのパッケージイラストとして登場した「初音ミク」たち。今ではキャラクターとして確立し、クリエイターたちの注目を集める存在に。国内外を問わずライブやグッズ展開を行うなど活躍の場を拡大中。</p>
+				</div>
+			</a>
+
+			<a href="/cfm/project_category/local" class="topimg topimg7">
+				<div class="topimg_inner topimg_inner7">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">地元の魅力を</span><span class="br">もっと伝える。</span></div>
+					<p class="topimg_desc">弊社の所在地である札幌、そして北海道をはじめとする、地域を応援するためのローカルプロジェクトを展開しています。</p>
+				</div>
+			</a>
+
+			<a href="/cfm/project_category/other" class="topimg topimg6">
+				<div class="topimg_inner topimg_inner6">
+					<div class="topimg_icon"></div>
+					<div class="topimg_copy"><span class="br">他にも</span><span class="br">いろいろ。</span></div>
+					<p class="topimg_desc">ジャンルの枠に捉われない技術開発やサービス提供も多数実現。</p>
+				</div>
+			</a>
+
+			<a href="/cfm/pages/questionnaire" class="topimg topimg8">
+				<div class="topimg_inner topimg_inner8">
+					<!--<div class="bubble01"></div>-->
+					<!--<div class="bubble02"></div>-->
+					<!--<div class="bubble03"></div>-->
+					<!--<div class="bubble04"></div>-->
+					<!--<div class="bubble05"></div>-->
+				</div>
+			</a>
+			
+		</div>
+		
+		<div class="showcase">
+
+			<a href="/cfm/project_category/dtm" class="topbtn topbtn_dtm">
+				<div class="topbtn_title">サンプルパック／ソフト音源</div>
+				<p class="topbtn_desc">音楽制作に欠かせないサンプルパックやソフトウェア音源を販売。ジャンルや楽器ごとにまとめられた多彩なサウンド素材から、「初音ミク」などの自社開発ソフトウェアまで、世界最大の品揃えを実現。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/project_category/fxbgm" class="topbtn topbtn_fxbgm">
+				<div class="topbtn_title">効果音／BGM／音声編集</div>
+				<p class="topbtn_desc">映像表現が一層と際立つ効果音やBGMを販売。大自然の風景から近未来の世界まで様々なシーンを網羅する、200,000種類以上の効果音と10,000曲以上のBGMをダウンロード配信。その品揃えは世界最大規模。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/project_category/mobile" class="topbtn topbtn_mobile">
+				<div class="topbtn_title">モバイルコンテンツ</div>
+				<p class="topbtn_desc">「初音ミク」などのキャラクターを題材としたゲームや、50,000音以上の着信音・効果音がダウンロードできるアプリなど、モバイルを楽しくするコンテンツを企画・開発。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/project_category/character" class="topbtn topbtn_character">
+				<div class="topbtn_title">キャラクター</div>
+				<p class="topbtn_desc">ソフトウェアのパッケージイラストとして登場した「初音ミク」たち。今ではキャラクターとして確立し、クリエイターたちの注目を集める存在に。国内外を問わずライブやグッズ展開を行うなど活躍の場を拡大中。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/project_category/local" class="topbtn topbtn_local">
+				<div class="topbtn_title">ローカルプロジェクト</div>
+				<p class="topbtn_desc">弊社の所在地である札幌、そして北海道をはじめとする、地域を応援するためのローカルプロジェクトを展開しています。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/project_category/other" class="topbtn topbtn_other">
+				<div class="topbtn_title">その他</div>
+				<p class="topbtn_desc">弊社では、ジャンルの枠に捉われない技術開発や作品制作を行っています。</p>
+				<div class="topbtn_icon"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+			<a href="/cfm/pages/questionnaire" class="topbtn topbtn_extra">
+				<div class="topbtn_title extra_hidden">社員アンケート結果</div>
+				<p class="topbtn_desc">社員アンケート結果</p>
+				<div class="topbtn_icon extra_hidden"></div>
+				<div class="topbtn_arrow"></div>
+			</a>
+
+		</div>
+		
+		<div class="subcont">
+			
+			<div class="newsbox">
+				<div class="newsicon">ニュースリリース</div>
+				<ul class="newscont">
+															<li><a href="https://www.crypton.co.jp/cfm/news/2019/10/24snowmiku2020"><span class="news_date">2019. 10 .24</span><span class="news_ctg">キャラクター</span><span class="news_title">「雪ミク」が冬の北海道を応援するフェスティバル！『SNOW MIKU 2020』開催決定！</span></a></li>
+										<li><a href="https://www.crypton.co.jp/cfm/news/2019/10/01routerfm"><span class="news_date">2019. 10 .01</span><span class="news_ctg">その他</span><span class="news_title">音楽流通サービス『ROUTER.FM』が大幅プライスダウン！</span></a></li>
+										<li><a href="https://www.crypton.co.jp/cfm/news/2019/09/17mikuexpo2020eu"><span class="news_date">2019. 09 .17</span><span class="news_ctg">キャラクター</span><span class="news_title">初音ミク、2度目のヨーロッパコンサートツアー「HATSUNE MIKU EXPO 2020 EUROPE」開催決定！―「MIKU EXPO 5周年記念展開」の一環として実施―</span></a></li>
+										<li><a href="https://www.crypton.co.jp/cfm/news/2019/09/02magicalmirai2020"><span class="news_date">2019. 09 .02</span><span class="news_ctg">キャラクター</span><span class="news_title">2020年は夏と冬！初音ミク「マジカルミライ 2020」開催決定！― 今年は約5万人が来場―</span></a></li>
+										<li><a href="https://www.crypton.co.jp/cfm/news/2019/08/30kiite"><span class="news_date">2019. 08 .30</span><span class="news_ctg">その他</span><span class="news_title">音楽印象分析・音楽推薦を駆使して楽曲と出会える音楽発掘サービス「Kiite」を公開</span></a></li>
+										<li><a href="/cfm/news"><i class="icon-ellipsis-horizontal icon_more"></i>もっと読む</a></li>
+				</ul>
+			</div>
+			
+			<div class="linkbox">
+				
+				<a target="_blank" href="http://www.crypton.co.jp/vienna" class="linkthum linkthum_vsl"></a>
+				<a target="_blank" href="http://sonicwire.com/toontrack" class="linkthum linkthum_toontrack"></a>
+				<a target="_blank" href="http://www.crypton.co.jp/vocaloid" class="linkthum linkthum_vocaloid"></a>
+                <a target="_blank" href="http://piaprostudio.com/" class="linkthum linkthum_piaprostudio"></a>
+				<a target="_blank" href="http://sonicwire.com/" class="linkthum linkthum_sonicwire"></a>
+                <a target="_blank" href="http://sonicwire.com/d2r/index.html" class="linkthum linkthum_d2r"></a>
+				<a target="_blank" href="http://sonicwire.com/mutant" class="linkthum linkthum_mutant"></a>
+				<a target="_blank" href="http://karent.jp/" class="linkthum linkthum_karent"></a>
+				<a target="_blank" href="http://router.fm/" class="linkthum linkthum_router"></a>
+				<a target="_blank" href="http://sonoca.net/" class="linkthum linkthum_sonoca"></a>
+				<a target="_blank" href="http://domingo.ne.jp/" class="linkthum linkthum_domingo"></a>
+				<a target="_blank" href="http://gigle.jp/" class="linkthum linkthum_gigle"></a>
+				<a target="_blank" href="http://www.pokeon.net/" class="linkthum linkthum_pokeon"></a>
+				<a target="_blank" href="http://mirai.st" class="linkthum linkthum_miraist"></a>
+				<a target="_blank" href="http://snowmiku.com/skytown/" class="linkthum linkthum_skytown"></a>
+				<a target="_blank" href="http://snowmiku.com/skytown/theater.html" class="linkthum linkthum_gurutto"></a>
+				<a target="_blank" href="http://www.crypton.co.jp/mikucolle/" class="linkthum linkthum_gurakore"></a>
+				<a target="_blank" href="http://www.crypton.co.jp/mikucolle_app/" class="linkthum linkthum_gurakore_nt"></a>
+				<a target="_blank" href="http://mikumoba.jp/mikumoba/index.php" class="linkthum linkthum_mikumoba"></a>
+				<a target="_blank" href="http://snowmiku.com/" class="linkthum linkthum_snowmiku_portal"></a>
+                <a target="_blank" href="https://mikunavi.com/" class="linkthum linkthum_mikunavi"></a>
+				<a target="_blank" href="http://piapro.net" class="linkthum linkthum_piapronet"></a>
+				<a target="_blank" href="http://piapro.jp/" class="linkthum linkthum_piapro"></a>
+				<a target="_blank" href="http://www.youtube.com/user/HatsuneMiku/featured" class="linkthum linkthum_39ch"></a>
+				<a target="_blank" href="http://magicalmirai.com/" class="linkthum linkthum_magicalmirai"></a>
+				<a target="_blank" href="http://mikuexpo.com/" class="linkthum linkthum_mikuexpo"></a>
+				<a target="_blank" href="http://snowmiku.com/2019/" class="linkthum linkthum_snowmiku"></a>
+				<a target="_blank" href="http://r3system.net/" class="linkthum linkthum_r3"></a>
+                <a target="_blank" href="https://kiite.jp/" class="linkthum linkthum_kiite"></a>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <span class="linkthum linkthum_empty"></span>
+                <!--<span class="linkthum linkthum_empty"></span>-->
+			</div>
+			
+		</div>
+
+		<div class="footer">
+			
+						<div class="snsbox_top">
+				<div class="snsbtn"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">ツイート</a><script src="https://platform.twitter.com/widgets.js"></script></div>
+				<div class="snsbtn"><div class="fb-like" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false"></div></div>
+			</div>
+						
+			<ul class="footer_link">
+				<li><a href="/cfm/rule">利用条件</a></li>
+				<li><a href="/cfm/security_policy">セキュリティーポリシー</a></li>
+				<li><a href="/cfm/privacy_policy">プライバシーポリシー</a></li>
+				<li><a href="https://www.crypton.co.jp/cfm/inquiry-aboutus_en">ENGLISH</a></li>
+			</ul>
+			<div class="footer_lang"><span>日本語</span><a href="#">ENGLISH</a></div>
+			<div class="footer_copyright">&copy; Crypton Future Media, INC.</div>
+			
+			<!--<div class="cfm-20th"><a href="/cfm/news/2015/07/21cfm20th"><img src="https://www.crypton.co.jp/cfm/wp-content/themes/crypton/images/logo_cfm_20th_gray.svg"></a></div>-->
+		</div>
+	</div>
+	<div class="backtotop"></div>
+	<script type='text/javascript' src='https://www.crypton.co.jp/cfm/wp-includes/js/wp-embed.min.js?ver=5.0.7'></script>
+</body>
+</html>
